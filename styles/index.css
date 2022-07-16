@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins' , 'Manrope' , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.side-bar-qismi-for-you{
+  color: #005b96;
+  transition: .2s ease-in-out;
+  font-weight: 600;
+}
+.side-bar-qismi-for-you:hover{
+  background-color:#d5e2eb77;
+}
+.web-line::-webkit-scrollbar{
+  display: none;
+}
+.side-bar-nom-berish-joy{
+  color:#03396c;
+  font-weight: 700;
+  font-size: 17px;
+}
+.topiclarni-shunday-turgan-holati{
+  transition: .2s ease-in-out;
+  border-radius: 10px;
+}
+.topiclarni-shunday-turgan-holati:hover{
+  background: #d5e2eb77;
+}
+.topiclarni-shunday-turgan-holati span{
+  font-weight: 600;
+  color: #005b96;
+}
+.topiclarni-shunday-active-holati {
+  background-color: #005b96;
+  transition: .2s ease-in-out;
+
+  border-radius: 10px;
+}
+.topiclarni-shunday-active-holati span{
+  color: white;
+}
+.topiclarni-shunday-active-holati:hover{
+  background: #005a96b4;
+}
+.account-hover:hover{
+  background-color: #d5e2eb77;
+  transition: .3s ease-in-out;
+}
+.transition-css-uchun{
+  transition: .3s ease-in-out;
+}

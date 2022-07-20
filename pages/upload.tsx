@@ -9,6 +9,7 @@ import useAuthStore from "../store/authStore";
 import { client } from "../utils/client";
 import { topics } from "../utils/constants";
 import { BASE_URL } from "../utils";
+import { IoIosMusicalNotes } from "react-icons/io";
 
 const Upload = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -103,17 +104,6 @@ const Upload = () => {
                       controls
                       src={videoAsset?.url}
                     />
-                    
-                    <div className='absolute mt-5 flex justify-between gap-20'>
-                      <p className='text-lg font-semibold'>{videoAsset.originalFilename}</p>
-                      <button
-                        type='button'
-                        className=' rounded-full bg-[#d5e2eb77] text-[#005b96] p-2 text-xl cursor-pointer outline-none hover:shadow-md transition-all duration-500 ease-in-out'
-                        onClick={() => setVideoAsset(undefined)}
-                      >
-                        <MdDelete />
-                      </button>
-                    </div>
                   </div>
                   
                 ) : (
@@ -176,7 +166,7 @@ const Upload = () => {
                 className=" outline-none capitalize bg-white text-gray-700 text-md p-2 hover:bg-slate-300"
                 value={topic.name}
               >
-                {topic.name}
+               {topic.name}
               </option>
             ))}
           </select>

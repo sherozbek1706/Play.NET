@@ -1,10 +1,11 @@
 import { BsCode, BsEmojiSunglasses } from 'react-icons/bs';
-import { GiBeachBall, GiCakeSlice, GiGalaxy, GiLipstick, GiMermaid, GiTiger } from 'react-icons/gi';
-import { FaPaw, FaMedal, FaGamepad } from 'react-icons/fa';
+import { GiBeachBall, GiCakeSlice, GiGalaxy, GiLipstick, GiMermaid, GiPartyPopper, GiTiger } from 'react-icons/gi';
+import { FaPaw, FaMedal, FaGamepad, FaLess, FaMosque } from 'react-icons/fa';
 import { BiCodeBlock } from 'react-icons/bi';
-import { IoLogoGameControllerA } from 'react-icons/io';
+import { IoIosMusicalNotes, IoLogoGameControllerA } from 'react-icons/io';
 import { MdFastfood, MdSportsBasketball } from 'react-icons/md';
 import { AiOutlineGlobal } from 'react-icons/ai';
+import { ImHeartBroken } from 'react-icons/im';
 
 export const topics = [
   {
@@ -18,6 +19,26 @@ export const topics = [
   {
     name: 'gaming',
     icon: <IoLogoGameControllerA />,
+  },
+  {
+    name: 'Party',
+    icon: <GiPartyPopper />,
+  },
+  {
+    name: 'Lesson',
+    icon: <FaLess />,
+  },
+  {
+    name: 'Music',
+    icon: <IoIosMusicalNotes />,
+  },
+  {
+    name: 'Lovely',
+    icon: <ImHeartBroken />,
+  },
+  {
+    name: 'Regilion',
+    icon: <FaMosque />,
   },
   {
     name: 'food',
